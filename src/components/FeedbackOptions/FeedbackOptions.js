@@ -1,10 +1,9 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import s from './FeedbackOptions.module.css';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <div className={s.thumb}>
+    <div className={s.container}>
       <ul className={s.list}>
         {options.map(option => (
           <li key={option} className={s.item}>

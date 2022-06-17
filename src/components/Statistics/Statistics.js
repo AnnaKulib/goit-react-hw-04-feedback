@@ -1,4 +1,3 @@
-import React from 'react';
 import s from './Statistics.module.css';
 
 const Statistics = ({
@@ -9,7 +8,7 @@ const Statistics = ({
   positivFeedbackPercentage,
 }) => {
   return (
-    <div className={s.thumb}>
+    <div className={s.container}>
       <ul className={s.list}>
         <li className={s.item}>
           Good:<span>{good}</span>
